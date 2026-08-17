@@ -59,6 +59,20 @@ See [docs/RESULTS.md](docs/RESULTS.md) for the detailed evidence and
 [docs/ROOT-NOTES.md](docs/ROOT-NOTES.md) for the exact root boundary that was
 tested.
 
+## Root, backup, and recovery documentation
+
+The exact route that produced working root is now documented separately:
+
+- [Root guide for the tested V344 route](docs/ROOT-GUIDE.md)
+- [Backup and stock recovery guide](docs/BACKUP-RECOVERY.md)
+- [`verify-firmware.sh`](scripts/verify-firmware.sh) for checking the recorded
+  byte counts and SHA-256 hashes before a file reaches a USB stick
+
+These are model- and platform-specific field notes, not a universal TCL root
+method. The guide intentionally does not mirror firmware. It links to the
+original community sources and publishes hashes for the exact files that were
+tested locally.
+
 ## Why repeated Android screenshots are not a workaround
 
 Android UI and external HDMI video do not necessarily travel through the same
@@ -94,8 +108,9 @@ but includes no TCL firmware, framework JAR, APK, key, or other vendor binary.
 
 The code is published for reproducibility, not as a supported application.
 Only run it on hardware you own and only after making an independent recovery
-plan. The probe does not enable root and this repository does not distribute or
-recommend modified firmware.
+plan. The probe does not enable root. The separate root guide records the exact
+third-party image that worked, its audit findings, and its remaining risks;
+this repository does not distribute that image.
 
 ## Scope and privacy
 
