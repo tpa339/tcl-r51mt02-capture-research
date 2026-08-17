@@ -1,0 +1,12 @@
+build/
+*.apk
+*.apks
+*.aab
+*.jks
+*.keystore
+*.img
+*.zip
+*.7z*
+*.jar
+*.log
+.DS_Store
