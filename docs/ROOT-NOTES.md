@@ -1,6 +1,8 @@
 # Root boundary and recovery notes
 
-This document records what was actually tested. It is not a rooting guide.
+This document records what was actually tested. For the operational procedure,
+see [ROOT-GUIDE.md](ROOT-GUIDE.md). For the rollback material and failure
+paths, see [BACKUP-RECOVERY.md](BACKUP-RECOVERY.md).
 
 ## Root that was achieved
 
